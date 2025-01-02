@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PaymentsList = ({project}) => {
+const PaymentsList = ({ project }) => {
   return (
     <div>
       <h2 className="text-primary">Payments List</h2>
@@ -13,10 +13,10 @@ const PaymentsList = ({project}) => {
             <div>
               <button
                 className="btn btn-success m-1 px-4"
-               
+
                 disabled={item.status === 'Completed'}
               >
-                Paid  
+                Paid
               </button>
               <button
                 className="btn btn-danger m-1"

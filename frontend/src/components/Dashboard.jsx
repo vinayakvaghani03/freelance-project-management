@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import ProjectForm from './ProjectForm';
 import PaymentsList from './PaymentsList';
