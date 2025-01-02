@@ -1,0 +1,1 @@
+export const APIUrl = 'http://localhost:1000/api';
